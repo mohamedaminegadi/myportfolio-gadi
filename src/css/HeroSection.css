@@ -1,0 +1,129 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f4f6; 
+  padding: 3rem 4vw;
+  min-height: 420px;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.hero-content {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.hero-text .hero-im {
+  color: #7d7e83;
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.hero-text .hero-name {
+  font-size: 2.6rem;
+  margin: 0 0 0.7rem 0;
+  color: #212121;
+}
+
+.hero-text .bold {
+  font-weight: 700;
+  color: #18181b;
+}
+
+.hero-underline {
+  width: 54px;
+  height: 4px;
+  background: #fbbf24; 
+  border-radius: 2px;
+  margin: 1.2rem 0 1.1rem 0;
+}
+
+.hero-desc {
+  font-size: 1rem;
+  color: #7d7e83;
+  max-width: 330px;
+}
+
+.hero-services {
+  align-self: flex-start;
+  background: none;
+  margin-top: 2.1rem;
+}
+
+.hero-services-title {
+  font-size: 1rem;
+  color: #757575;
+  margin-bottom: 0.3rem;
+}
+
+.hero-services-desc {
+  color: #fff;
+  font-size: 1.13rem;
+  font-weight: 400;
+  background: #18181b;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+}
+
+.hero-showmore {
+  color: #fbbf24;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: text-decoration 0.2s;
+}
+
+.hero-showmore:hover {
+  text-decoration: underline;
+}
+
+.hero-socials {
+  margin-top: 1.1rem;
+  display: flex;
+  gap: 1rem;
+}
+.hero-socials svg {
+  color: #7d7e83;
+  font-size: 1.25rem;
+  background: #fff;
+  border-radius: 50%;
+  padding: 0.45rem;
+  box-shadow: 0 1px 7px rgba(30,30,30,0.06);
+  transition: color 0.18s, background 0.18s;
+  cursor: pointer;
+}
+.hero-socials svg:hover {
+  color: #fbbf24;
+  background: #212121;
+}
+
+.hero-photo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-photo-circle {
+  background: #fff;
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 30px rgba(0,0,0,0.10);
+}
+
+.hero-photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 7px solid #f3f4f6;
+  background: #fff;
+}

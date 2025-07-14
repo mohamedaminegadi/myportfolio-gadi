@@ -1,0 +1,31 @@
+.companies-section {
+  background: #353744;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem 0 1.2rem 0;
+  margin-top: -50px; 
+  z-index: 2;
+  position: relative;
+}
+
+.companies-bar {
+  display: flex;
+  gap: 2.5rem;
+  background: #282936;
+  border-radius: 10px;
+  padding: 1.3rem 3rem;
+  box-shadow: 0 4px 32px rgba(30,30,30,0.15);
+}
+
+.companies-bar img {
+  height: 32px;
+  width: auto;
+  filter: brightness(0) invert(1) grayscale(0.6); 
+  opacity: 0.8;
+  transition: opacity 0.2s, filter 0.2s;
+}
+.companies-bar img:hover {
+  opacity: 1;
+  filter: none;
+}

@@ -2,22 +2,22 @@ import React from "react";
 
 export default function Stats() {
   return (
-    <section className="stats">
-      <div>
+    <section className="stats-section">
+      <div className="stats-card">
         <h3>250+</h3>
-        <p>Projects Completed</p>
+        <span>Project Completed</span>
       </div>
-      <div>
+      <div className="stats-card">
         <h3>100+</h3>
-        <p>Community Network</p>
+        <span>Community Network</span>
       </div>
-      <div>
+      <div className="stats-card">
         <h3>30+</h3>
-        <p>Contract Remote</p>
+        <span>Contract Remote</span>
       </div>
-      <div>
+      <div className="stats-card">
         <h3>10+</h3>
-        <p>Years Experience</p>
+        <span>Years Experience</span>
       </div>
     </section>
   );

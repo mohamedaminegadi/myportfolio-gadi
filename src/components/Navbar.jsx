@@ -1,19 +1,26 @@
 import React from "react";
+import "../css/navbar.css";
+import { FaLinkedinIn, FaDribbble, FaBars } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">Gadi</div>
-      <ul className="navbar-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonial">Testimonial</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-      <div className="navbar-socials">
-        <a href="#"><i className="fab fa-linkedin-in"></i></a>
-        <a href="#"><i className="fab fa-github"></i></a>
-        <a href="#"><i className="fab fa-twitter"></i></a>
+    <nav className="custom-navbar">
+      <div className="navbar-left">
+        <span className="navbar-logo">
+          <span className="emoji-logo">🟡</span>
+          <span className="brand">GADI Mohamed Amine</span>
+        </span>
+        <ul className="navbar-menu">
+          <li className="active">Home</li>
+          <li>Portfolio</li>
+          <li>Testimonial</li>
+          <li>About</li>
+        </ul>
+      </div>
+      <div className="navbar-right">
+        <FaDribbble className="navbar-icon" />
+        <FaLinkedinIn className="navbar-icon" />
+        <FaBars className="navbar-icon menu-icon" />
       </div>
     </nav>
   );
